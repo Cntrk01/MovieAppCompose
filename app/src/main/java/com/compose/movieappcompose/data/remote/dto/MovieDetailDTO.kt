@@ -1,5 +1,7 @@
 package com.compose.movieappcompose.data.remote.dto
 
+import com.compose.movieappcompose.domain.model.MovieDetail
+
 data class MovieDetailDTO(
     val Actors: String,
     val Awards: String,
@@ -27,3 +29,7 @@ data class MovieDetailDTO(
     val imdbRating: String,
     val imdbVotes: String
 )
+
+fun MovieDetailDTO.toMovieDetail() : MovieDetail{
+    return MovieDetail(Actors, Awards, Country, Director, Genre, Language, Poster, Rated, Released, Title, Type, Year, imdbRating)
+}
