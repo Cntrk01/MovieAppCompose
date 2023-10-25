@@ -1,4 +1,4 @@
-package com.compose.movieappcompose.ui.theme
+package com.compose.movieappcompose.presentation.theme
 
 import android.app.Activity
 import android.os.Build
