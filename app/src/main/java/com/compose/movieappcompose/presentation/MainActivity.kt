@@ -13,6 +13,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
+import com.compose.movieappcompose.presentation.movie.views.MovieScreen
 import com.compose.movieappcompose.presentation.theme.MovieAppComposeTheme
 import dagger.hilt.android.AndroidEntryPoint
 
@@ -30,7 +31,7 @@ class MainActivity : ComponentActivity() {
                     val navController= rememberNavController()
                     NavHost(navController = navController, startDestination = Screen.MovieScreen.route){
                         composable(route = Screen.MovieScreen.route){
-
+                            MovieScreen(navController = navController)
                         }
                         composable(route = Screen.MovieDetailScreen.route){
 
