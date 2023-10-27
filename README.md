@@ -8,29 +8,32 @@ Kullanılan teknolojiler:
 
 
 -Hilt,
+
 -Retrofit,
+
 -Okhttp,
+
+
 -Usecase,
+
+
 -States,
+
+
 -Flow,
+
+
 -Navigation,
+
+
 -SavedStateHandle
 
 
 
 
 
-![Ekran görüntüsü 2023-10-27 141025](https://github.com/Cntrk01/MovieAppCompose/assets/98031686/da5d5c0d-c113-465b-a2c4-6bcbf1ae07f7)
 
-
-
-![Ekran görüntüsü 2023-10-27 141018](https://github.com/Cntrk01/MovieAppCompose/assets/98031686/0a7e39a8-acd9-4a75-881d-2790c088fd1e)
-
-
-
-![Ekran görüntüsü 2023-10-27 141000](https://github.com/Cntrk01/MovieAppCompose/assets/98031686/a371fca0-f5ae-46ef-aa2c-dbd83aa8095a)
-
-
-
-
-![Ekran görüntüsü 2023-10-27 140949](https://github.com/Cntrk01/MovieAppCompose/assets/98031686/23cf651d-adcf-4fa0-a7aa-a8fc1355ac0f)
+![Ekran görüntüsü 2023-10-27 140949](https://github.com/Cntrk01/MovieAppCompose/assets/98031686/5d18c2df-bbf1-4c75-a6d0-da5bdef4d626)
+![Ekran görüntüsü 2023-10-27 141025](https://github.com/Cntrk01/MovieAppCompose/assets/98031686/9759d7b8-f3f1-4516-a5c1-fc37aa5301c8)
+![Ekran görüntüsü 2023-10-27 141000](https://github.com/Cntrk01/MovieAppCompose/assets/98031686/ea942811-4173-4e61-99e2-8b8f96cf3130)
+![Ekran görüntüsü 2023-10-27 141018](https://github.com/Cntrk01/MovieAppCompose/assets/98031686/b4b403c2-e40d-402c-ab05-cc6817a75e77)
