@@ -1,7 +1,5 @@
 package com.compose.movieappcompose.domain.model
 
-import com.compose.movieappcompose.data.remote.dto.Rating
-
 data class MovieDetail(
     val Actors: String,
     val Awards: String,

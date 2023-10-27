@@ -28,6 +28,7 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.navigation.NavController
+import com.compose.movieappcompose.presentation.Screen
 import com.compose.movieappcompose.presentation.movie.MoviesEvent
 import com.compose.movieappcompose.presentation.movie.MoviesViewModel
 
@@ -52,7 +53,9 @@ fun MovieScreen(
                 })
             LazyColumn(modifier = Modifier.fillMaxSize()){
                 items(state.movies){movie->
-                    Text(text = movie.Title,modifier=Modifier.fillMaxWidth(), textAlign = TextAlign.Center, color = Color.White)
+                    MovieListRow(movie = movie, onItemClick = {
+                        navController.navigate(Screen.MovieDetailScreen.route)
+                    })
                 }
             }
         }
@@ -83,7 +86,6 @@ fun MovieSearchBar(
                 singleLine = true,
                 textStyle = TextStyle(color = Color.Black),
                 shape = RoundedCornerShape(12.dp),
-
                 modifier= Modifier
                     .fillMaxWidth()
                     .shadow(5.dp, CircleShape)
